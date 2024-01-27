@@ -1,0 +1,42 @@
+.container_vaga{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 96px;
+}
+
+
+
+.container_vaga_nome{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    margin-bottom: 0;
+    width: 768px;
+}
+
+.vaga{
+    border: 1px solid var(--cinza-claro);
+    padding: 24px 24px 28px 24px;
+    width: 768px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.titulo_vaga{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    
+}
+
+.informacoes{
+    font-size: 16px;
+    color: var(--cor-cabecalho);  
+    display: flex;
+    gap: 24px;
+}

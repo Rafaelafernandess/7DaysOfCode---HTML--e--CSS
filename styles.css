@@ -1,0 +1,22 @@
+@import url(./styles/cabecalho.css);
+@import url(./styles/banner.css);
+@import url(./styles/metricas.css);
+@import url(./styles/emprego.css);
+@import url(./styles/vagas.css);
+@import url(./styles/depoimento.css);
+@import url(./styles/rodape.css);
+
+:root{
+    --fundo-principal: #FFFFFF;
+    --fonte-principal: "Inter";
+    --cor-cabecalho: #667085;
+    --vermelho-escuro: #8E2424;
+    --cinza-escuro: #101828;
+    --rosa-claro: #facde9;
+    --cinza-claro: #EAECF0;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    /*color: var(--fonte-principal);*/
+}

@@ -1,0 +1,33 @@
+.container_depoimento{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left:112px;
+    margin-right: 112px;
+    margin-bottom: 96px;
+}  
+
+.depoimento_titulo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+}
+
+.depoimento_texto{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.depoimento_nome{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.depoimento_trabalho{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-cabecalho);
+}

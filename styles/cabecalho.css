@@ -1,0 +1,67 @@
+.cabecalho{
+    background: var(--fundo-principal);
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    padding: 0px, 32px, 0px, 32px;
+    height: 80px;
+    width: 1,400px;
+    
+}
+
+.cabecalho_direita{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    align-items: center;
+    gap: 5px;
+}
+
+.cabecalho_titulo{
+    font-size: 18px;
+}
+
+.cabecalho_imagem{
+    width: 27px;
+    height: 26.99px;
+
+}
+
+.cabecalho_botao{
+    color: var(--cor-cabecalho);
+    text-decoration: none;    
+}
+
+.cabecalho_links{
+    display: flex;
+    justify-content: space-between;
+    gap:40px; 
+}
+ 
+.cabecalho_links_categoria{
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.cabecalho_esquerda{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.cabecalho_botao_cadastro{
+    background-color: var(--vermelho-escuro);
+    color: var(--fundo-principal);
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    border: 1px;
+}
